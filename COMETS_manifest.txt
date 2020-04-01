@@ -1,0 +1,3 @@
+ModelFileName: yeastGEMxml.txt
+MediaFileName: C:\sync\biomes\cellulose\optima\temp\log_media.m
+BiomassFileName: C:\sync\biomes\cellulose\optima\temp\log_biomass.m

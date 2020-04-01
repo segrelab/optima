@@ -1,0 +1,1 @@
+These files were used to diagnose/set up the Yeast GEM model version 8.1.2, then archived here on 3/23/2020 before updating them to apply to version 8.3.4

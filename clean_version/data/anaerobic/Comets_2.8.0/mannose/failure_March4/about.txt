@@ -1,0 +1,15 @@
+Mannose initialized at 5% of biomass by weight
+initman: 3.7468e-05
+vmax_man: 99999
+km_man: 1.0000e-09
+diff_man: 0
+mannose_pct: 0.0500
+initialpop: 1.3500e-04
+maxcycles: 3000
+timestep: 1
+maintRxnAsObjective: 1
+
+
+No enzyme produced
+
+Turns out kinetics for Mannose uptake weren't being set in prepareYeastGemModel.m. Bug fixed, confirmed the base layout now has some growth.

@@ -1,0 +1,4 @@
+These layouts are not anaerobic
+
+Error occurred when converting the prepareYeastGemModel script to take the struct "v" as its argument instead of the enumerated set of arguments.
+v contained "anaerobic," but prepareYeastGemModel was referring to the field as "makeAnaerobic"

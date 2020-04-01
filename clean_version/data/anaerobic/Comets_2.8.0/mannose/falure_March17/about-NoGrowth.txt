@@ -1,0 +1,3 @@
+No growth observed in pipeline 2 for either the full hill climbing pipeline or the litParams version
+Current theory is there is not enough mannose to reach critical enzyme levels, which will be confirmed if the mannose calculation pipeline was using aerobic mode instead of anaerobic
+* Confirmed: The model used in determiningInitialMannose.m was not anaerobic

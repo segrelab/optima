@@ -1,0 +1,6 @@
+The included files reveal some sort of numerical instability in COMETS.
+
+When the timestep for this layout is set to exactly 10, a large biomass yield is predicted.
+When the timestep is set to anything else, in this case 10.0001, the system predicts barely any growth.
+
+The layout and log files for the former have the "_10" suffix, and the latter have the "_10p0001" suffix.
