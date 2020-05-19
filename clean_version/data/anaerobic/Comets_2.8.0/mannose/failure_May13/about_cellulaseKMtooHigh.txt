@@ -1,0 +1,3 @@
+The KM from literature for the cellulolysis reaction was calculated by converting from reported mg/ml. But I accidentally converted into millimoles, not millimolar (that is, millimoles per ml).
+
+There are now two pairs of conversion scripts: convertMmolarToMgPerMl and convertMmolesToMgPerMl. Consider deleting the latter altogether? It might be dangerous.

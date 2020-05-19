@@ -15,8 +15,10 @@ function model = anaerobicModelWithNGAM(model,ngam,gam)
 
 %MQ: temporarily restore original names for mets because the comparison to
 %data pivots on names of amino acid mets
-newmets = model.mets;
-model.mets(1:length(model.mets_original)) = model.mets_original;
+if isfield(model,'mets_original')
+    newmets = model.mets;
+    model.mets(1:length(model.mets_original)) = model.mets_original;
+end
 
 %1th change: Refit GAM and NGAM to exp. data, change biomass composition
 GAM   = 30.49;  %Data from Nissen et al. 1997. Note: Original/aerobic is 55.3 
@@ -64,7 +66,9 @@ model.ub(strcmp(model.rxns,'r_0472')) = 0;
 
 
 %MQ: restore modified mets
-model.mets = newmets;
+if isfield(model,'mets_original')
+    model.mets = newmets;
+end
 
 end
 

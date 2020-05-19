@@ -12,6 +12,7 @@ end
 
 
 cd(curdir);
+fclose all;
 end
 
 function res = loadResult(layout,i)
@@ -19,6 +20,7 @@ medianames = {'glc-D[e]' 'enzyme[e]' 'cellulose' 'etoh[e]'};
 [~,mediafilename,mediafileext] = fileparts(layout.params.mediaLogName);
 disp(['Loading Media File ./log_' num2str(i) '/' mediafilename mediafileext]);
 media = parseMediaLog(['./log_' num2str(i) '/' mediafilename mediafileext],medianames);
+fclose all;
 
 res.timestep = unique(media.t);
 res.t = res.timestep * layout.models{1}.v.timestep; %time in hours

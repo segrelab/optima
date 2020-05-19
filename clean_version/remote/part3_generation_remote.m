@@ -15,9 +15,17 @@ alphas = -(2:.25:4.75);
 %alphas = -(6:.1:9);
 %alphas = -(1:12)
 alphas = -(.25:.25:10);
+alphas = -(.02:.02:5);
+% alphas = -2.75;
+% alphas = -[2.7:.01:2.8];
 %celranges = [.1 .2 .3 .4 .5 .6 .7 .8 .9 1 2 3 4 5 6 7 8 9 10] / 20;
 %celranges = [.1 .2 .4 .6 .8 1 2 4 6 8 10] / 20;
-celranges = [1 2 4 8 1/2 1/4 1/8];
+%celranges = [1/8 1/4 1/2 1 2 4 8];
+celranges = [1/8 8];
+celranges = [1/4 4];
+celranges = [1/2 1 2];
+% celranges = [1 .9 .99 1.1 1.25];
+% celranges = [.95:.025:1.05];
 %celranges = 8;
 
 v = arg.v;
@@ -105,8 +113,11 @@ layouts = cell(0);
 %%DEFAULT MODEL
 %model_default = load('C:\sync\biomes\models\Scerevisiae_iMM904_renamed.mat'); %Saccaromyces cerevisiae iMM904
 %model_default = load('C:\sync\biomes\models\yeast-GEM\ModelFiles\mat\yeastGEM_renamed.mat');
-model_default = load('C:\sync\biomes\models\yeastGEM_8.3.2.mat');
-model_default = model_default.model;
+% model_default = load('C:\sync\biomes\models\yeastGEM_8.3.2.mat');
+model_default = load('C:\sync\biomes\models\yeast-GEM-8.3.5-dev\ModelFiles\mat\yeastGEM_8-3-5-dev');
+if isfield(model_default,'model')
+    model_default = model_default.model;
+end
 
 
 
@@ -143,45 +154,9 @@ enzmodel.v = v;
 layout = buildCelOptLayout(enzmodel);
 layout = setInitialPop(layout,'1x1',[v.initialpop]);
 
-%layout = setMedia(layout,layout.mets,0);
-
-layout = setMedia(layout,'cellulose',v.initcellulose);
-layout = setMedia(layout,'enzyme[e]',v.initenzyme);
-layout = setMedia(layout,'zymst[e]',v.initzymst);
-layout = setMedia(layout,'ergst[e]',v.initergst);
-layout = setMedia(layout,'o2[e]',v.initO2);
-layout = setMedia(layout,'h[e]',v.initH);
-layout = setMedia(layout,'h2o[e]',v.initH2O);
-layout = setMedia(layout,'co2[e]',v.initCO2);
-layout = setMedia(layout,'pi[e]',v.initPi);
-layout = setMedia(layout,'so4[e]',v.initSO4);
-layout = setMedia(layout,'nh4[e]',v.initNH4);
-layout = setMedia(layout,'k[e]',v.initK);
-layout = setMedia(layout,'fe2[e]',v.initfe2);
-layout = setMedia(layout,'oleate[e]',v.initoleate);
-layout = setMedia(layout,'palmitoleate[e]',v.initpalmitoleate);
-
-layout = setMedia(layout,'glc-D[e]',v.initglc);
-
-layout = setMedia(layout,'gthox[e]',v.initgthox);
-layout = setMedia(layout,'man-D[e]',v.initman);
-
-% layout.params.defaultVmax = 1000;
-% layout.params.defaultKm = 1e-8;
-
-% %%add some O2 dependent metabolites
-% %dependentmets = {'pa_SC[c]' 'pc_SC[c]' 'pe_SC[c]' 'ps_SC[c]' 'triglyc_SC[c]'};
-% dependentmets = {'triglyc_SC[c]'};
-% %layout.models{1} = addExchangeRxn(layout.models{1},dependentmets);
-% layout.models{1} = addReaction(layout.models{1},'EX_triglyc_SC[c]',{'triglyc_SC[c]'},-1,'lowerBound',-99999);
-% dep_amt = 10;
-% layout = setMedia(layout,dependentmets,dep_amt);
-
 layout.params.maxCycles = v.maxcycles;
 layout.params.timeStep = v.timestep;
-%temporary
-% layout = setMedia(layout,'glc-D[e]',5);
-% layout = setMedia(layout,'o2[e]',5);
+
 end
 
 function res = loadResult(layout)

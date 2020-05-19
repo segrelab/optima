@@ -32,8 +32,17 @@ v.gtp_per_peptide = 4; %see https://www.ncbi.nlm.nih.gov/books/NBK224633/
 %off!
 
 %%Glucose variables
-v.km_glc = 0.01; %millimoles/cm^3.
-v.vmax_glc = 1; %10;
+% %somewhat arbitrary:
+%v.km_glc = 0.01; %millimoles/cm^3.
+%v.vmax_glc = 1; %10;
+% %ref: denHollander et al 1979 doi:10.1073/pnas.76.12.6096
+%v.km_glc = 8e-3; %8 mM. Units for input should be mmol/cm^3, convert by scaling down 1000x
+%v.vmax_glc = 0.016 * 60; %==0.96, given as 16 micromoles/min per g. Units should be mmol/gCDW per hour, so multiply by 60 
+% %ref van Uden 1967, doi:doi.org/10.1007/BF00406676. Note: anaerobic, but this is under
+% competitive inhibition, so the real values should be even better
+v.vmax_glc = 3.9; %given as 6.5e-8 moles mg^-1 min^-1, converted to millimoles/(g*h) 
+v.km_glc = 5.6e-4; %given as 5.6e-4 M. Conversion to mmol/mL yields same result
+
 v.glcpercellulose = 218.2;%how many units of glucose get released per unit cellulose? 1:1 assumes units are by weight
 %Avicel degree of polymerization cite : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3217711/
 %v.biomassperglc = 1/(1.447e9); %how many units of biomass are produced for every unit glc consumed?

@@ -13,7 +13,8 @@ enzamts = arg.enzamts;
 v = arg.v;
 model_default = load('C:\sync\biomes\models\yeastGEM_8.3.2.mat');
 model = model_default.model;
-enzmodel = prepareYeastGEMModel('model',model,'alpha',v.alpha,'vmax_glc',v.vmax_glc,'maintRxnAsObjective',v.maintRxnAsObjective);
+%enzmodel = prepareYeastGEMModel('model',model,'alpha',v.alpha,'vmax_glc',v.vmax_glc,'maintRxnAsObjective',v.maintRxnAsObjective);
+enzmodel = prepareYeastGEMModel('model',model,'v',v);
 enzmodel.v = v;
 
 layout = createLayout();
@@ -82,6 +83,10 @@ layout = setMedia(layout,'glc-D[e]',v.initglc);
 layout = setMedia(layout,'gthox[e]',v.initgthox);
 layout = setMedia(layout,'oleate[e]',v.initoleate);
 layout = setMedia(layout,'palmitoleate[e]',v.initpalmitoleate);
+media = {'ca2[e]', 'cbl1[e]', 'cl[e]', 'cobalt2[e]', 'cu2[e]', 'fe2[e]', ...
+    'fe3[e]', 'h[e]', 'k[e]', 'mg2[e]', 'mn2[e]', 'mobd[e]', 'na1[e]', ...
+    'nh4[e]', 'ni2[e]', 'sel[e]', 'slnt[e]', 'tungs[e]', 'zn2[e]'};
+layout = setMedia(layout,media,v.initmedia);
 
 layout.params.maxCycles = v.maxcycles;
 layout.params.timeStep = v.timestep;

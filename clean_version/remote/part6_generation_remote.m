@@ -19,7 +19,8 @@ enzposn = [ceil(xdim/2),ceil(xdim/2)]; %location of the enzyme producer
 
 v = arg.v;
 model = arg.model;
-enzmodel = prepareYeastGEMModel('model',model,'alpha',v.alpha,'vmax_glc',v.vmax_glc,'maintRxnAsObjective',v.maintRxnAsObjective);
+%enzmodel = prepareYeastGEMModel('model',model,'alpha',v.alpha,'vmax_glc',v.vmax_glc,'maintRxnAsObjective',v.maintRxnAsObjective);
+enzmodel = prepareYeastGEMModel('model',model,'v',v);
 enzmodel.v = v;
 
 distances_cells = floor(distances / v.spaceWidth); %distance in cells instead of cm
@@ -43,27 +44,8 @@ layout = addModel(layout,cheatmodel);
 
 layout.initial_pop(1,enzposn(1),enzposn(2)) = v.initialpop;
 
-layout = setMedia(layout,layout.mets,0);
-
 layout = setMedia(layout,'cellulose',v.initcellulose);
 layout = setInitialMediaInCell(layout,enzposn(1),enzposn(2),'enzyme[e]',v.initenzyme);
-layout = setMedia(layout,'zymst[e]',v.initzymst);
-layout = setMedia(layout,'ergst[e]',v.initergst);
-% layout = setMedia(layout,'zymstest_SC[e]',v.initzymst);
-% layout = setMedia(layout,'ergstest_SC[e]',v.initergst);
-layout = setMedia(layout,'o2[e]',v.initO2);
-layout = setMedia(layout,'h[e]',v.initH);
-layout = setMedia(layout,'h2o[e]',v.initH2O);
-layout = setMedia(layout,'co2[e]',v.initCO2);
-layout = setMedia(layout,'pi[e]',v.initPi);
-layout = setMedia(layout,'so4[e]',v.initSO4);
-layout = setMedia(layout,'nh4[e]',v.initNH4);
-layout = setMedia(layout,'k[e]',v.initK);
-layout = setMedia(layout,'fe2[e]',v.initfe2);
-layout = setMedia(layout,'glc-D[e]',v.initglc);
-layout = setMedia(layout,'gthox[e]',v.initgthox);
-layout = setMedia(layout,'oleate[e]',v.initoleate);
-layout = setMedia(layout,'palmitoleate[e]',v.initpalmitoleate);
 
 layout.params.maxCycles = v.maxcycles;
 layout.params.timeStep = v.timestep;
