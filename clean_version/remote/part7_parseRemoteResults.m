@@ -15,22 +15,29 @@ cd(curdir);
 end
 
 function res = loadResult(layout,i)
-medianames = {'glc-D[e]' 'enzyme[e]' 'cellulose' 'etoh[e]'};
-[~,mediafilename,mediafileext] = fileparts(layout.params.mediaLogName);
-media = parseMediaLog(['./log_' num2str(i) '/' mediafilename mediafileext],medianames);
-
-res.timestep = unique(media.t);
+[~,biofilename,biofileext] = fileparts(layout.params.biomassLogName);
+biomass = parseBiomassLog(['./log_' num2str(i) '/' biofilename biofileext]);
+res.timestep = unique(biomass.t);
 res.t = res.timestep * layout.models{1}.v.timestep; %time in hours
+res.biomass= biomass.biomass;
+res.biomass_delta = calcDelta(res.biomass);
+res.biomass_max = max(biomass.biomass);
 
-res.glc_amt = media.amt(stridx('glc-D[e]',media.metname));
-res.enzyme_amt = media.amt(stridx('enzyme[e]',media.metname));
-res.cellulose_amt = media.amt(stridx('cellulose',media.metname));
-res.etoh_amt = media.amt(stridx('etoh[e]',media.metname));
 
-res.glc_delta = calcDelta(res.glc_amt);
-res.enzyme_delta = calcDelta(res.enzyme_amt);
-res.cellulose_delta = calcDelta(res.cellulose_amt);
-res.etoh_delta = calcDelta(res.etoh_amt);
+% medianames = {'glc-D[e]' 'enzyme[e]' 'cellulose' 'etoh[e]'};
+% [~,mediafilename,mediafileext] = fileparts(layout.params.mediaLogName);
+% media = parseMediaLog(['./log_' num2str(i) '/' mediafilename mediafileext],medianames);
+% 
+% 
+% res.glc_amt = media.amt(stridx('glc-D[e]',media.metname));
+% res.enzyme_amt = media.amt(stridx('enzyme[e]',media.metname));
+% res.cellulose_amt = media.amt(stridx('cellulose',media.metname));
+% res.etoh_amt = media.amt(stridx('etoh[e]',media.metname));
+% 
+% res.glc_delta = calcDelta(res.glc_amt);
+% res.enzyme_delta = calcDelta(res.enzyme_amt);
+% res.cellulose_delta = calcDelta(res.cellulose_amt);
+% res.etoh_delta = calcDelta(res.etoh_amt);
 
 [~,biofilename,biofileext] = fileparts(layout.params.biomassLogName);
 biomass = parseBiomassLog(['./log_' num2str(i) '/' biofilename biofileext]);
@@ -49,15 +56,15 @@ tab = table;
 tab.layout = {layout};
 tab.t = {res.t};
 tab.timestep = {res.timestep};
-tab.glc_amt = {res.glc_amt};
-tab.enzyme_amt = {res.enzyme_amt};
-tab.cellulose_amt = {res.cellulose_amt};
-tab.etoh_amt = {res.etoh_amt};
+% tab.glc_amt = {res.glc_amt};
+% tab.enzyme_amt = {res.enzyme_amt};
+% tab.cellulose_amt = {res.cellulose_amt};
+% tab.etoh_amt = {res.etoh_amt};
 tab.biomass = {res.biomass};
-tab.glc_delta = {res.glc_delta};
-tab.enzyme_delta = {res.enzyme_delta};
-tab.cellulose_delta = {res.cellulose_delta};
-tab.etoh_delta = {res.etoh_delta};
+% tab.glc_delta = {res.glc_delta};
+% tab.enzyme_delta = {res.enzyme_delta};
+% tab.cellulose_delta = {res.cellulose_delta};
+% tab.etoh_delta = {res.etoh_delta};
 tab.biomass_delta = {res.biomass_delta};
 
 tab.alpha = layout.models{1}.v.alpha;

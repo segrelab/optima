@@ -23,6 +23,9 @@ layouts = cell(0);
 
 varInitEnz = [0 1];
 enzInMaint = [0 1];
+varInitEnz = 0;
+enzInMaint = 0;
+
 
 for vie = varInitEnz
     for eim = enzInMaint
@@ -144,6 +147,53 @@ for vie = varInitEnz
                 v.permutation_scale = f;
                 v.atp_per_peptide = v.atp_per_peptide * f;
                 v.gtp_per_peptide = v.gtp_per_peptide * f;
+                layouts = addcase(layouts,model,v);
+            end
+        end
+        if arg.dims.initman == 1
+            for f = factors
+                v = v_default;
+                v.permuted = 'initial mannose';
+                v.permutation_scale = f;
+                v.mannose_pct = v.mannose_pct * f;
+                v.initman = v.initman * f;
+                layouts = addcase(layouts,model,v);
+            end
+        end
+        if arg.dims.ngam == 1
+            for f = factors
+                v = v_default;
+                v.permuted = 'NGAM';
+                v.permutation_scale = f;
+                v.NGAM = v.NGAM * f;
+                layouts = addcase(layouts,model,v);
+            end
+        end
+        if arg.dims.gam == 1
+            for f = factors
+                v = v_default;
+                v.permuted = 'GAM';
+                v.permutation_scale = f;
+                v.GAM = v.GAM * f;
+                layouts = addcase(layouts,model,v);
+            end
+        end
+        if arg.dims.ngam_and_gam == 1
+            for f = factors
+                v = v_default;
+                v.permuted = 'NGAM & GAM';
+                v.permutation_scale = f;
+                v.NGAM = v.NGAM * f;
+                v.GAM = v.GAM * f;
+                layouts = addcase(layouts,model,v);
+            end
+        end
+        if arg.dims.initialpop == 1
+            for f = factors
+                v = v_default;
+                v.permuted = 'Initial Pop';
+                v.permutation_scale = f;
+                v.initialpop = v.initialpop * f;
                 layouts = addcase(layouts,model,v);
             end
         end
