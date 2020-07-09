@@ -14,5 +14,5 @@ for i = 1:length(z)
     Z(row,col) = z(i);
 end
 Z = Z';
-p = surf(X,Y,Z);     
+p = surf(X,Y,Z,Z);     
 end
