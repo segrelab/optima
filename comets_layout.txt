@@ -2,14 +2,14 @@
 	activateRate = 0.001
 	allowCellOverlap = true
 	deathRate = 0
-	maxCycles = 500
-	maxSpaceBiomass = 1000
+	maxCycles = 300
+	maxSpaceBiomass = 9999
 	minSpaceBiomass = 2.5e-11
 	pauseOnStep = false
 	randomOrder = true
-	spaceWidth = 2.1544
+	spaceWidth = 4.6416
 	simulateActivation = false
-	timeStep = 3
+	timeStep = 1
 	toroidalWorld = false
 	randomSeed = 0
 	allowFluxWithoutGrowth = true
@@ -52,33 +52,34 @@
 	writeMatFile = false
 	MatFileName = ./comets_log.mat
 //
-model_file yeastGEMxml.txt
+model_file yeastGEMxml_noMaintRxn.txt
 	model_world
 		grid_size 1 1
 		world_media
 		ac[e] 0
-		ca2[e] 1
-		cellulose 0
-		cl[e] 1
-		co2[e] 1000
-		cu2[e] 1
+		ca2[e] 10
+		cellulose 0.00337073
+		cl[e] 10
+		co2[e] 10000
+		cu2[e] 10
 		enzyme[e] 0
 		ergst[e] 0.00252111
 		etoh[e] 0
-		fe2[e] 10000
-		glc-D[e] 1
+		fe2[e] 10
+		glc-D[e] 0
 		gthox[e] 0
-		h2o[e] 1000
+		h2o[e] 10000
 		h[e] 10000
-		k[e] 1000
-		man-D[e] 3.74675e-05
-		mg2[e] 1
-		mn2[e] 1
-		nh4[e] 1000
-		o2[e] 1000
+		k[e] 10000
+		man-D[e] 0.0014987
+		mg2[e] 10
+		mn2[e] 10
+		na1[e] 10
+		nh4[e] 10000
+		o2[e] 0
 		oleate[e] 0.105569
-		palmitoleate[e] 0.00754062
-		pi[e] 1000
+		palmitoleate[e] 0.105569
+		pi[e] 10000
 		s_0003[e] 0
 		s_0022[e] 0
 		s_0026[e] 0
@@ -200,7 +201,6 @@ model_file yeastGEMxml.txt
 		s_1418[e] 0
 		s_1425[e] 0
 		s_1435[e] 0
-		s_1438[e] 0
 		s_1440[e] 0
 		s_1443[e] 0
 		s_1450[e] 0
@@ -298,10 +298,10 @@ model_file yeastGEMxml.txt
 		s_4170[e] 0
 		s_4172[e] 0
 		s_4176[e] 0
-		so4[e] 1000
+		so4[e] 10000
 		tre[e] 0
 		xyl-D[e] 0
-		zn2[e] 1
+		zn2[e] 10
 		zymst[e] 0
 	//
 	diffusion_constants 1.000000e-06
@@ -319,13 +319,14 @@ model_file yeastGEMxml.txt
 	//
 //
 initial_pop
-	0 0 1.000000e-04
+	0 0 1.350000e-04
 //
 reactions
 	reactants
-		1 3 3.000000e-02
+		1 3 7.000000e-01
+		2 7 1 2.777778e-06
 	enzymes
-		1 7 1.237397e-01
+		1 7 1.466544e-01
 	products
 		1 11 2.182000e+02
 //

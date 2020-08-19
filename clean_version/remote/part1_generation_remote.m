@@ -73,13 +73,13 @@ runlayouts = [runlayouts {layout}];
 
 %% vary decay rate
 v = v_default;
-v.enzdecayperhour = 10;
+v.enzdecayperhour = .10;
 layout = buildDat1Layout(model_default,v);
 %dat1 = runAndLoad(layout,dat1);
 runlayouts = [runlayouts {layout}];
 
 v = v_default;
-v.enzdecayperhour = 100;
+v.enzdecayperhour = .0100;
 layout = buildDat1Layout(model_default,v);
 %dat1 = runAndLoad(layout,dat1);
 runlayouts = [runlayouts {layout}];

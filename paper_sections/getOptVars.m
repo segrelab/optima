@@ -25,7 +25,10 @@ v.km_cel = 0.7; %Units = mmoles/cm^3. Source PMID:3134347
 v.n_enzymes = 2; %number of enzymes in the modified organism from the denHaan experiment
 
 v.enz_weight =  1.5979532e-19 + 7.638479e-20; %grams. Combination of S. fibuligera BGL1 and T reesei EGI/Cel7b
+        %144.5 kDa = 
     %for 3-enzyme complex, use weight = 8.5853183e-20
+    
+    
 v.atp_per_peptide = 8; %used to calculate energy costs in getEnzymeStoich
 v.gtp_per_peptide = 4; %see https://www.ncbi.nlm.nih.gov/books/NBK224633/
 %v.enzByWeight = false; %Don't set this to true! Tiny fluxes get rounded
