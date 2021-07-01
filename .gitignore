@@ -16,7 +16,7 @@
 *.gz
 *.iso
 *.jar
-#*.rar
+*.rar
 *.tar
 *.zip
 
@@ -38,7 +38,7 @@ Thumbs.db
 
 # Matlab data files #
 #####################
-*.mat
+#*.mat
 *.asv
 
 # Temporary and Data files #
