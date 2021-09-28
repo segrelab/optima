@@ -44,6 +44,6 @@ Thumbs.db
 # Temporary and Data files #
 #####################
 /temp/*
-*.fig
-*.eps
-*.png
+#*.fig
+#*.eps
+#*.png
