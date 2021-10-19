@@ -1,0 +1,4020 @@
+-script
+running script file: comets_script
+Current Java version: 1.8.0_172
+Loading layout file 'comets_layout_3.txt'...
+null/COMETS_manifest.txt (No such file or directory)
+Unable to initialize manifest file. 
+Continuing without writing manifest file.
+Found 1 model files!
+Loading 'model_3_1.txt' ...
+Done!
+ Testing default parameters...
+Done!
+Optimizer status code = 5 (looks ok!)
+objective solution = 0.7
+Constructing world...
+Done!
+medialist	ac[e]	ca2[e]	cellulose	cl[e]	co2[e]	cu2[e]	enzyme[e]	ergst[e]	etoh[e]	fe2[e]	glc-D[e]	gthox[e]	h2o[e]	h[e]	k[e]	man-D[e]	mg2[e]	mn2[e]	na1[e]	nh4[e]	o2[e]	oleate[e]	palmitoleate[e]	pi[e]	s_0003[e]	s_0022[e]	s_0026[e]	s_0029[e]	s_0032[e]	s_0036[e]	s_0058[e]	s_0064[e]	s_0067[e]	s_0080[e]	s_0084[e]	s_0133[e]	s_0135[e]	s_0137[e]	s_0139[e]	s_0163[e]	s_0167[e]	s_0170[e]	s_0173[e]	s_0181[e]	s_0186[e]	s_0235[e]	s_0272[e]	s_0316[e]	s_0320[e]	s_0342[e]	s_0354[e]	s_0358[e]	s_0360[e]	s_0384[e]	s_0387[e]	s_0391[e]	s_0406[e]	s_0408[e]	s_0413[e]	s_0446[e]	s_0452[e]	s_0513[e]	s_0523[e]	s_0544[e]	s_0546[e]	s_0549[e]	s_0554[e]	s_0559[e]	s_0560[e]	s_0562[e]	s_0576[e]	s_0597[e]	s_0611[e]	s_0651[e]	s_0659[e]	s_0684[e]	s_0686[e]	s_0702[e]	s_0715[e]	s_0720[e]	s_0723[e]	s_0726[e]	s_0736[e]	s_0751[e]	s_0766[e]	s_0776[e]	s_0780[e]	s_0788[e]	s_0791[e]	s_0826[e]	s_0844[e]	s_0851[e]	s_0857[e]	s_0928[e]	s_0930[e]	s_0933[e]	s_0936[e]	s_0938[e]	s_0956[e]	s_0962[e]	s_0964[e]	s_0966[e]	s_0970[e]	s_0974[e]	s_0982[e]	s_0990[e]	s_0992[e]	s_1000[e]	s_1004[e]	s_1007[e]	s_1015[e]	s_1017[e]	s_1022[e]	s_1026[e]	s_1030[e]	s_1033[e]	s_1036[e]	s_1041[e]	s_1044[e]	s_1046[e]	s_1049[e]	s_1052[e]	s_1057[e]	s_1061[e]	s_1067[e]	s_1106[e]	s_1154[e]	s_1163[e]	s_1186[e]	s_1220[e]	s_1225[e]	s_1250[e]	s_1267[e]	s_1272[e]	s_1288[e]	s_1309[e]	s_1317[e]	s_1319[e]	s_1390[e]	s_1397[e]	s_1400[e]	s_1406[e]	s_1418[e]	s_1425[e]	s_1435[e]	s_1440[e]	s_1443[e]	s_1450[e]	s_1459[e]	s_1466[e]	s_1470[e]	s_1472[e]	s_1476[e]	s_1490[e]	s_1494[e]	s_1498[e]	s_1530[e]	s_1551[e]	s_1553[e]	s_1557[e]	s_1564[e]	s_1567[e]	s_2766[e]	s_2768[e]	s_2822[e]	s_2824[e]	s_3715[e]	s_3716[e]	s_3746[c]	s_3747[c]	s_4034[e]	s_4037[e]	s_4040[e]	s_4045[e]	s_4047[e]	s_4049[e]	s_4050[e]	s_4053[e]	s_4056[e]	s_4059[e]	s_4063[e]	s_4065[e]	s_4067[e]	s_4069[e]	s_4070[e]	s_4074[e]	s_4075[e]	s_4078[e]	s_4080[e]	s_4082[e]	s_4084[e]	s_4085[e]	s_4093[e]	s_4095[e]	s_4097[e]	s_4099[e]	s_4101[e]	s_4103[e]	s_4105[e]	s_4107[e]	s_4109[e]	s_4111[e]	s_4116[e]	s_4118[e]	s_4119[e]	s_4124[e]	s_4125[e]	s_4127[e]	s_4130[e]	s_4131[e]	s_4133[e]	s_4135[e]	s_4137[e]	s_4139[e]	s_4140[e]	s_4141[e]	s_4142[e]	s_4143[e]	s_4145[e]	s_4146[e]	s_4147[e]	s_4148[e]	s_4150[e]	s_4151[e]	s_4152[e]	s_4153[e]	s_4154[e]	s_4155[e]	s_4156[e]	s_4157[e]	s_4158[e]	s_4160[e]	s_4161[e]	s_4162[e]	s_4163[e]	s_4164[e]	s_4166[e]	s_4167[e]	s_4168[e]	s_4170[e]	s_4172[e]	s_4176[e]	so4[e]	tre[e]	xyl-D[e]	zn2[e]	zymst[e]
+Cycle 1
+Total biomass:
+Model model_3_1.txt: 1.3510566510719038E-4
+Cycle complete in 0.502s
+Cycle 2
+Total biomass:
+Model model_3_1.txt: 1.3520774342259622E-4
+Cycle complete in 0.106s
+Cycle 3
+Total biomass:
+Model model_3_1.txt: 1.3530668631756845E-4
+Cycle complete in 0.115s
+Cycle 4
+Total biomass:
+Model model_3_1.txt: 1.3540289713405283E-4
+Cycle complete in 0.115s
+Cycle 5
+Total biomass:
+Model model_3_1.txt: 1.3549677235947282E-4
+Cycle complete in 0.099s
+Cycle 6
+Total biomass:
+Model model_3_1.txt: 1.355887408092088E-4
+Cycle complete in 0.095s
+Cycle 7
+Total biomass:
+Model model_3_1.txt: 1.356791206333239E-4
+Cycle complete in 0.103s
+Cycle 8
+Total biomass:
+Model model_3_1.txt: 1.3576828567121786E-4
+Cycle complete in 0.098s
+Cycle 9
+Total biomass:
+Model model_3_1.txt: 1.358565856110077E-4
+Cycle complete in 0.099s
+Cycle 10
+Total biomass:
+Model model_3_1.txt: 1.3594437418567155E-4
+Cycle complete in 0.114s
+Cycle 11
+Total biomass:
+Model model_3_1.txt: 1.3603193669593444E-4
+Cycle complete in 0.099s
+Cycle 12
+Total biomass:
+Model model_3_1.txt: 1.3611962649810223E-4
+Cycle complete in 0.102s
+Cycle 13
+Total biomass:
+Model model_3_1.txt: 1.3620774151217082E-4
+Cycle complete in 0.102s
+Cycle 14
+Total biomass:
+Model model_3_1.txt: 1.3629659097947865E-4
+Cycle complete in 0.099s
+Cycle 15
+Total biomass:
+Model model_3_1.txt: 1.363864781205506E-4
+Cycle complete in 0.095s
+Cycle 16
+Total biomass:
+Model model_3_1.txt: 1.3647769238213942E-4
+Cycle complete in 0.094s
+Cycle 17
+Total biomass:
+Model model_3_1.txt: 1.365705674367246E-4
+Cycle complete in 0.094s
+Cycle 18
+Total biomass:
+Model model_3_1.txt: 1.3666539359516577E-4
+Cycle complete in 0.096s
+Cycle 19
+Total biomass:
+Model model_3_1.txt: 1.367624762440137E-4
+Cycle complete in 0.094s
+Cycle 20
+Total biomass:
+Model model_3_1.txt: 1.3686212425898395E-4
+Cycle complete in 0.099s
+Cycle 21
+Total biomass:
+Model model_3_1.txt: 1.3696465350422027E-4
+Cycle complete in 0.1s
+Cycle 22
+Total biomass:
+Model model_3_1.txt: 1.3707038685017506E-4
+Cycle complete in 0.106s
+Cycle 23
+Total biomass:
+Model model_3_1.txt: 1.3717966050514816E-4
+Cycle complete in 0.1s
+Cycle 24
+Total biomass:
+Model model_3_1.txt: 1.3729278897289536E-4
+Cycle complete in 0.1s
+Cycle 25
+Total biomass:
+Model model_3_1.txt: 1.37410132651434E-4
+Cycle complete in 0.106s
+Cycle 26
+Total biomass:
+Model model_3_1.txt: 1.3753202266547453E-4
+Cycle complete in 0.149s
+Cycle 27
+Total biomass:
+Model model_3_1.txt: 1.3765885454735795E-4
+Cycle complete in 0.132s
+Cycle 28
+Total biomass:
+Model model_3_1.txt: 1.377910313625942E-4
+Cycle complete in 0.117s
+Cycle 29
+Total biomass:
+Model model_3_1.txt: 1.3792893226808204E-4
+Cycle complete in 0.149s
+Cycle 30
+Total biomass:
+Model model_3_1.txt: 1.3807295600249203E-4
+Cycle complete in 0.098s
+Cycle 31
+Total biomass:
+Model model_3_1.txt: 1.3822355269383195E-4
+Cycle complete in 0.1s
+Cycle 32
+Total biomass:
+Model model_3_1.txt: 1.3838116656598068E-4
+Cycle complete in 0.094s
+Cycle 33
+Total biomass:
+Model model_3_1.txt: 1.3854627654178873E-4
+Cycle complete in 0.099s
+Cycle 34
+Total biomass:
+Model model_3_1.txt: 1.3871937656145849E-4
+Cycle complete in 0.112s
+Cycle 35
+Total biomass:
+Model model_3_1.txt: 1.3890099282572136E-4
+Cycle complete in 0.1s
+Cycle 36
+Total biomass:
+Model model_3_1.txt: 1.3909167864952632E-4
+Cycle complete in 0.097s
+Cycle 37
+Total biomass:
+Model model_3_1.txt: 1.392920008029791E-4
+Cycle complete in 0.097s
+Cycle 38
+Total biomass:
+Model model_3_1.txt: 1.3950258533537897E-4
+Cycle complete in 0.105s
+Cycle 39
+Total biomass:
+Model model_3_1.txt: 1.3972404130360887E-4
+Cycle complete in 0.107s
+Cycle 40
+Total biomass:
+Model model_3_1.txt: 1.3995705416644722E-4
+Cycle complete in 0.11s
+Cycle 41
+Total biomass:
+Model model_3_1.txt: 1.402023293903028E-4
+Cycle complete in 0.106s
+Cycle 42
+Total biomass:
+Model model_3_1.txt: 1.4046062546786535E-4
+Cycle complete in 0.122s
+Cycle 43
+Total biomass:
+Model model_3_1.txt: 1.4073272311719676E-4
+Cycle complete in 0.102s
+Cycle 44
+Total biomass:
+Model model_3_1.txt: 1.41019456988438E-4
+Cycle complete in 0.111s
+Cycle 45
+Total biomass:
+Model model_3_1.txt: 1.4132173135771123E-4
+Cycle complete in 0.233s
+Cycle 46
+Total biomass:
+Model model_3_1.txt: 1.4164043703667666E-4
+Cycle complete in 0.096s
+Cycle 47
+Total biomass:
+Model model_3_1.txt: 1.419765804430324E-4
+Cycle complete in 0.094s
+Cycle 48
+Total biomass:
+Model model_3_1.txt: 1.4233120301293002E-4
+Cycle complete in 0.104s
+Cycle 49
+Total biomass:
+Model model_3_1.txt: 1.4270540753963263E-4
+Cycle complete in 0.104s
+Cycle 50
+Total biomass:
+Model model_3_1.txt: 1.431003607202783E-4
+Cycle complete in 0.102s
+Cycle 51
+Total biomass:
+Model model_3_1.txt: 1.4351729809859403E-4
+Cycle complete in 0.106s
+Cycle 52
+Total biomass:
+Model model_3_1.txt: 1.4395753350686583E-4
+Cycle complete in 0.094s
+Cycle 53
+Total biomass:
+Model model_3_1.txt: 1.4442243629045811E-4
+Cycle complete in 0.094s
+Cycle 54
+Total biomass:
+Model model_3_1.txt: 1.449134833209553E-4
+Cycle complete in 0.099s
+Cycle 55
+Total biomass:
+Model model_3_1.txt: 1.4543222684827053E-4
+Cycle complete in 0.104s
+Cycle 56
+Total biomass:
+Model model_3_1.txt: 1.4598031375164045E-4
+Cycle complete in 0.11s
+Cycle 57
+Total biomass:
+Model model_3_1.txt: 1.4655949658650823E-4
+Cycle complete in 0.099s
+Cycle 58
+Total biomass:
+Model model_3_1.txt: 1.4717161135889448E-4
+Cycle complete in 0.104s
+Cycle 59
+Total biomass:
+Model model_3_1.txt: 1.4781862648768644E-4
+Cycle complete in 0.092s
+Cycle 60
+Total biomass:
+Model model_3_1.txt: 1.485026352877542E-4
+Cycle complete in 0.1s
+Cycle 61
+Total biomass:
+Model model_3_1.txt: 1.492258267945207E-4
+Cycle complete in 0.092s
+Cycle 62
+Total biomass:
+Model model_3_1.txt: 1.499905806465571E-4
+Cycle complete in 0.09s
+Cycle 63
+Total biomass:
+Model model_3_1.txt: 1.507993244952175E-4
+Cycle complete in 0.092s
+Cycle 64
+Total biomass:
+Model model_3_1.txt: 1.5165472774517354E-4
+Cycle complete in 0.098s
+Cycle 65
+Total biomass:
+Model model_3_1.txt: 1.525595953279885E-4
+Cycle complete in 0.097s
+Cycle 66
+Total biomass:
+Model model_3_1.txt: 1.5351689668679727E-4
+Cycle complete in 0.102s
+Cycle 67
+Total biomass:
+Model model_3_1.txt: 1.5452979544572032E-4
+Cycle complete in 0.097s
+Cycle 68
+Total biomass:
+Model model_3_1.txt: 1.5560164943651789E-4
+Cycle complete in 0.097s
+Cycle 69
+Total biomass:
+Model model_3_1.txt: 1.5671553171023246E-4
+Cycle complete in 0.142s
+Cycle 70
+Total biomass:
+Model model_3_1.txt: 1.5786778245855057E-4
+Cycle complete in 0.104s
+Cycle 71
+Total biomass:
+Model model_3_1.txt: 1.5906063589532005E-4
+Cycle complete in 0.127s
+Cycle 72
+Total biomass:
+Model model_3_1.txt: 1.6029638476804459E-4
+Cycle complete in 0.103s
+Cycle 73
+Total biomass:
+Model model_3_1.txt: 1.6157738820675563E-4
+Cycle complete in 0.1s
+Cycle 74
+Total biomass:
+Model model_3_1.txt: 1.6290607542816164E-4
+Cycle complete in 0.09s
+Cycle 75
+Total biomass:
+Model model_3_1.txt: 1.6428495060868538E-4
+Cycle complete in 0.105s
+Cycle 76
+Total biomass:
+Model model_3_1.txt: 1.6571657471875763E-4
+Cycle complete in 0.133s
+Cycle 77
+Total biomass:
+Model model_3_1.txt: 1.6720366206791993E-4
+Cycle complete in 0.126s
+Cycle 78
+Total biomass:
+Model model_3_1.txt: 1.6874894765039834E-4
+Cycle complete in 0.098s
+Cycle 79
+Total biomass:
+Model model_3_1.txt: 1.7035528334712977E-4
+Cycle complete in 0.099s
+Cycle 80
+Total biomass:
+Model model_3_1.txt: 1.7202562504315267E-4
+Cycle complete in 0.104s
+Cycle 81
+Total biomass:
+Model model_3_1.txt: 1.7376302138398544E-4
+Cycle complete in 0.108s
+Cycle 82
+Total biomass:
+Model model_3_1.txt: 1.7557064336651387E-4
+Cycle complete in 0.105s
+Cycle 83
+Total biomass:
+Model model_3_1.txt: 1.774517739916803E-4
+Cycle complete in 0.112s
+Cycle 84
+Total biomass:
+Model model_3_1.txt: 1.7940981805323502E-4
+Cycle complete in 0.109s
+Cycle 85
+Total biomass:
+Model model_3_1.txt: 1.814483080412912E-4
+Cycle complete in 0.103s
+Cycle 86
+Total biomass:
+Model model_3_1.txt: 1.8357091034026826E-4
+Cycle complete in 0.104s
+Cycle 87
+Total biomass:
+Model model_3_1.txt: 1.8578143149916446E-4
+Cycle complete in 0.101s
+Cycle 88
+Total biomass:
+Model model_3_1.txt: 1.880838303000461E-4
+Cycle complete in 0.111s
+Cycle 89
+Total biomass:
+Model model_3_1.txt: 1.9048220235179478E-4
+Cycle complete in 0.098s
+Cycle 90
+Total biomass:
+Model model_3_1.txt: 1.9298082006821745E-4
+Cycle complete in 0.096s
+Cycle 91
+Total biomass:
+Model model_3_1.txt: 1.955841178421485E-4
+Cycle complete in 0.101s
+Cycle 92
+Total biomass:
+Model model_3_1.txt: 1.982967048428999E-4
+Cycle complete in 0.098s
+Cycle 93
+Total biomass:
+Model model_3_1.txt: 2.011233690980974E-4
+Cycle complete in 0.088s
+Cycle 94
+Total biomass:
+Model model_3_1.txt: 2.040690997535719E-4
+Cycle complete in 0.096s
+Cycle 95
+Total biomass:
+Model model_3_1.txt: 2.0713907295353862E-4
+Cycle complete in 0.099s
+Cycle 96
+Total biomass:
+Model model_3_1.txt: 2.1033867581129114E-4
+Cycle complete in 0.095s
+Cycle 97
+Total biomass:
+Model model_3_1.txt: 2.1367351050499705E-4
+Cycle complete in 0.093s
+Cycle 98
+Total biomass:
+Model model_3_1.txt: 2.171493473989941E-4
+Cycle complete in 0.143s
+Cycle 99
+Total biomass:
+Model model_3_1.txt: 2.2077229896403101E-4
+Cycle complete in 0.102s
+Cycle 100
+Total biomass:
+Model model_3_1.txt: 2.2454867710000872E-4
+Cycle complete in 0.137s
+Cycle 101
+Total biomass:
+Model model_3_1.txt: 2.2848501863957253E-4
+Cycle complete in 0.09s
+Cycle 102
+Total biomass:
+Model model_3_1.txt: 2.325881502757721E-4
+Cycle complete in 0.101s
+Cycle 103
+Total biomass:
+Model model_3_1.txt: 2.3686516371001343E-4
+Cycle complete in 0.1s
+Cycle 104
+Total biomass:
+Model model_3_1.txt: 2.4132343446575208E-4
+Cycle complete in 0.099s
+Cycle 105
+Total biomass:
+Model model_3_1.txt: 2.459706341863829E-4
+Cycle complete in 0.091s
+Cycle 106
+Total biomass:
+Model model_3_1.txt: 2.5081473889685036E-4
+Cycle complete in 0.094s
+Cycle 107
+Total biomass:
+Model model_3_1.txt: 2.5586404731747406E-4
+Cycle complete in 0.085s
+Cycle 108
+Total biomass:
+Model model_3_1.txt: 2.611271840530155E-4
+Cycle complete in 0.098s
+Cycle 109
+Total biomass:
+Model model_3_1.txt: 2.6661312178837806E-4
+Cycle complete in 0.097s
+Cycle 110
+Total biomass:
+Model model_3_1.txt: 2.7233118972575605E-4
+Cycle complete in 0.087s
+Cycle 111
+Total biomass:
+Model model_3_1.txt: 2.782910845925455E-4
+Cycle complete in 0.099s
+Cycle 112
+Total biomass:
+Model model_3_1.txt: 2.8450289059939285E-4
+Cycle complete in 0.089s
+Cycle 113
+Total biomass:
+Model model_3_1.txt: 2.909770901546659E-4
+Cycle complete in 0.098s
+Cycle 114
+Total biomass:
+Model model_3_1.txt: 2.977245802391696E-4
+Cycle complete in 0.086s
+Cycle 115
+Total biomass:
+Model model_3_1.txt: 3.04756685723342E-4
+Cycle complete in 0.102s
+Cycle 116
+Total biomass:
+Model model_3_1.txt: 3.120851795652488E-4
+Cycle complete in 0.087s
+Cycle 117
+Total biomass:
+Model model_3_1.txt: 3.1972229523113927E-4
+Cycle complete in 0.09s
+Cycle 118
+Total biomass:
+Model model_3_1.txt: 3.2768074565835695E-4
+Cycle complete in 0.106s
+Cycle 119
+Total biomass:
+Model model_3_1.txt: 3.359737425608311E-4
+Cycle complete in 0.098s
+Cycle 120
+Total biomass:
+Model model_3_1.txt: 3.4461501369733986E-4
+Cycle complete in 0.088s
+Cycle 121
+Total biomass:
+Model model_3_1.txt: 3.5361882050820623E-4
+Cycle complete in 0.085s
+Cycle 122
+Total biomass:
+Model model_3_1.txt: 3.630000019616876E-4
+Cycle complete in 0.087s
+Cycle 123
+Total biomass:
+Model model_3_1.txt: 3.727739073297826E-4
+Cycle complete in 0.1s
+Cycle 124
+Total biomass:
+Model model_3_1.txt: 3.829565490017572E-4
+Cycle complete in 0.097s
+Cycle 125
+Total biomass:
+Model model_3_1.txt: 3.9356453708319525E-4
+Cycle complete in 0.097s
+Cycle 126
+Total biomass:
+Model model_3_1.txt: 4.0461512474527253E-4
+Cycle complete in 0.094s
+Cycle 127
+Total biomass:
+Model model_3_1.txt: 4.161262602827841E-4
+Cycle complete in 0.094s
+Cycle 128
+Total biomass:
+Model model_3_1.txt: 4.2811650233557166E-4
+Cycle complete in 0.1s
+Cycle 129
+Total biomass:
+Model model_3_1.txt: 4.4060524050200937E-4
+Cycle complete in 0.096s
+Cycle 130
+Total biomass:
+Model model_3_1.txt: 4.536125262922553E-4
+Cycle complete in 0.097s
+Cycle 131
+Total biomass:
+Model model_3_1.txt: 4.6715921645059847E-4
+Cycle complete in 0.13s
+Cycle 132
+Total biomass:
+Model model_3_1.txt: 4.8126693748279983E-4
+Cycle complete in 0.089s
+Cycle 133
+Total biomass:
+Model model_3_1.txt: 4.959582192299956E-4
+Cycle complete in 0.098s
+Cycle 134
+Total biomass:
+Model model_3_1.txt: 5.112564338362038E-4
+Cycle complete in 0.097s
+Cycle 135
+Total biomass:
+Model model_3_1.txt: 5.271858585296949E-4
+Cycle complete in 0.096s
+Cycle 136
+Total biomass:
+Model model_3_1.txt: 5.437717152690771E-4
+Cycle complete in 0.09s
+Cycle 137
+Total biomass:
+Model model_3_1.txt: 5.610402049069585E-4
+Cycle complete in 0.09s
+Cycle 138
+Total biomass:
+Model model_3_1.txt: 5.790185941260246E-4
+Cycle complete in 0.096s
+Cycle 139
+Total biomass:
+Model model_3_1.txt: 5.97735134748709E-4
+Cycle complete in 0.092s
+Cycle 140
+Total biomass:
+Model model_3_1.txt: 6.172191811516543E-4
+Cycle complete in 0.101s
+Cycle 141
+Total biomass:
+Model model_3_1.txt: 6.375013368901492E-4
+Cycle complete in 0.095s
+Cycle 142
+Total biomass:
+Model model_3_1.txt: 6.586133700327108E-4
+Cycle complete in 0.094s
+Cycle 143
+Total biomass:
+Model model_3_1.txt: 6.805883107679662E-4
+Cycle complete in 0.088s
+Cycle 144
+Total biomass:
+Model model_3_1.txt: 7.034605053049813E-4
+Cycle complete in 0.1s
+Cycle 145
+Total biomass:
+Model model_3_1.txt: 7.272656796296343E-4
+Cycle complete in 0.107s
+Cycle 146
+Total biomass:
+Model model_3_1.txt: 7.520410572266024E-4
+Cycle complete in 0.127s
+Cycle 147
+Total biomass:
+Model model_3_1.txt: 7.778251825720421E-4
+Cycle complete in 0.093s
+Cycle 148
+Total biomass:
+Model model_3_1.txt: 8.046583623801896E-4
+Cycle complete in 0.101s
+Cycle 149
+Total biomass:
+Model model_3_1.txt: 8.32582466567429E-4
+Cycle complete in 0.095s
+Cycle 150
+Total biomass:
+Model model_3_1.txt: 8.616411086074061E-4
+Cycle complete in 0.095s
+Cycle 151
+Total biomass:
+Model model_3_1.txt: 8.918796964392047E-4
+Cycle complete in 0.09s
+Cycle 152
+Total biomass:
+Model model_3_1.txt: 9.233455237308467E-4
+Cycle complete in 0.095s
+Cycle 153
+Total biomass:
+Model model_3_1.txt: 9.560878579399452E-4
+Cycle complete in 0.1s
+Cycle 154
+Total biomass:
+Model model_3_1.txt: 9.901580324729467E-4
+Cycle complete in 0.096s
+Cycle 155
+Total biomass:
+Model model_3_1.txt: 0.0010256096286445462
+Cycle complete in 0.091s
+Cycle 156
+Total biomass:
+Model model_3_1.txt: 0.0010624983258186202
+Cycle complete in 0.111s
+Cycle 157
+Total biomass:
+Model model_3_1.txt: 0.0011008821575723038
+Cycle complete in 0.101s
+Cycle 158
+Total biomass:
+Model model_3_1.txt: 0.001140821812156483
+Cycle complete in 0.102s
+Cycle 159
+Total biomass:
+Model model_3_1.txt: 0.0011823804873735686
+Cycle complete in 0.087s
+Cycle 160
+Total biomass:
+Model model_3_1.txt: 0.0012256240696220694
+Cycle complete in 0.09s
+Cycle 161
+Total biomass:
+Model model_3_1.txt: 0.001270621290451985
+Cycle complete in 0.104s
+Cycle 162
+Total biomass:
+Model model_3_1.txt: 0.0013174438337344469
+Cycle complete in 0.089s
+Cycle 163
+Total biomass:
+Model model_3_1.txt: 0.0013661664502990188
+Cycle complete in 0.098s
+Cycle 164
+Total biomass:
+Model model_3_1.txt: 0.0014168671302961827
+Cycle complete in 0.097s
+Cycle 165
+Total biomass:
+Model model_3_1.txt: 0.00146962718924367
+Cycle complete in 0.098s
+Cycle 166
+Total biomass:
+Model model_3_1.txt: 0.001524531455847069
+Cycle complete in 0.103s
+Cycle 167
+Total biomass:
+Model model_3_1.txt: 0.0015816683919054973
+Cycle complete in 0.099s
+Cycle 168
+Total biomass:
+Model model_3_1.txt: 0.0016411302518659836
+Cycle complete in 0.096s
+Cycle 169
+Total biomass:
+Model model_3_1.txt: 0.0017030131896882228
+Cycle complete in 0.104s
+Cycle 170
+Total biomass:
+Model model_3_1.txt: 0.0017674174859962978
+Cycle complete in 0.087s
+Cycle 171
+Total biomass:
+Model model_3_1.txt: 0.0018344478305090263
+Cycle complete in 0.095s
+Cycle 172
+Total biomass:
+Model model_3_1.txt: 0.0019042128376285314
+Cycle complete in 0.098s
+Cycle 173
+Total biomass:
+Model model_3_1.txt: 0.0019768261773459752
+Cycle complete in 0.101s
+Cycle 174
+Total biomass:
+Model model_3_1.txt: 0.002052406113218836
+Cycle complete in 0.098s
+Cycle 175
+Total biomass:
+Model model_3_1.txt: 0.002131075832510698
+Cycle complete in 0.089s
+Cycle 176
+Total biomass:
+Model model_3_1.txt: 0.002212963638980069
+Cycle complete in 0.102s
+Cycle 177
+Total biomass:
+Model model_3_1.txt: 0.002298203117173386
+Cycle complete in 0.097s
+Cycle 178
+Total biomass:
+Model model_3_1.txt: 0.0023869335600453204
+Cycle complete in 0.133s
+Cycle 179
+Total biomass:
+Model model_3_1.txt: 0.002479299292712446
+Cycle complete in 0.089s
+Cycle 180
+Total biomass:
+Model model_3_1.txt: 0.002575451148661211
+Cycle complete in 0.103s
+Cycle 181
+Total biomass:
+Model model_3_1.txt: 0.0026755458671086025
+Cycle complete in 0.102s
+Cycle 182
+Total biomass:
+Model model_3_1.txt: 0.0027797464928524997
+Cycle complete in 0.095s
+Cycle 183
+Total biomass:
+Model model_3_1.txt: 0.00288822261247993
+Cycle complete in 0.107s
+Cycle 184
+Total biomass:
+Model model_3_1.txt: 0.00300115087035986
+Cycle complete in 0.143s
+Cycle 185
+Total biomass:
+Model model_3_1.txt: 0.003118714092943965
+Cycle complete in 0.1s
+Cycle 186
+Total biomass:
+Model model_3_1.txt: 0.0032411032048222585
+Cycle complete in 0.111s
+Cycle 187
+Total biomass:
+Model model_3_1.txt: 0.003368516698427612
+Cycle complete in 0.085s
+Cycle 188
+Total biomass:
+Model model_3_1.txt: 0.003501160291979079
+Cycle complete in 0.146s
+Cycle 189
+Total biomass:
+Model model_3_1.txt: 0.0036392480446633554
+Cycle complete in 0.142s
+Cycle 190
+Total biomass:
+Model model_3_1.txt: 0.0037830020601601114
+Cycle complete in 0.094s
+Cycle 191
+Total biomass:
+Model model_3_1.txt: 0.003932653715326447
+Cycle complete in 0.095s
+Cycle 192
+Total biomass:
+Model model_3_1.txt: 0.004088443088292261
+Cycle complete in 0.102s
+Cycle 193
+Total biomass:
+Model model_3_1.txt: 0.004250619507547831
+Cycle complete in 0.095s
+Cycle 194
+Total biomass:
+Model model_3_1.txt: 0.004419441821733678
+Cycle complete in 0.113s
+Cycle 195
+Total biomass:
+Model model_3_1.txt: 0.004595178794411827
+Cycle complete in 0.096s
+Cycle 196
+Total biomass:
+Model model_3_1.txt: 0.004778109348514995
+Cycle complete in 0.107s
+Cycle 197
+Total biomass:
+Model model_3_1.txt: 0.004968522880079043
+Cycle complete in 0.095s
+Cycle 198
+Total biomass:
+Model model_3_1.txt: 0.0051667195506051936
+Cycle complete in 0.094s
+Cycle 199
+Total biomass:
+Model model_3_1.txt: 0.005373010570299332
+Cycle complete in 0.094s
+Cycle 200
+Total biomass:
+Model model_3_1.txt: 0.005587718490559007
+Cycle complete in 0.096s
+Cycle 201
+Total biomass:
+Model model_3_1.txt: 0.00581117740581895
+Cycle complete in 0.095s
+Cycle 202
+Total biomass:
+Model model_3_1.txt: 0.006043733238455576
+Cycle complete in 0.1s
+Cycle 203
+Total biomass:
+Model model_3_1.txt: 0.006285744047582665
+Cycle complete in 0.094s
+Cycle 204
+Total biomass:
+Model model_3_1.txt: 0.006537580115295651
+Cycle complete in 0.099s
+Cycle 205
+Total biomass:
+Model model_3_1.txt: 0.00679962434373604
+Cycle complete in 0.096s
+Cycle 206
+Total biomass:
+Model model_3_1.txt: 0.007072272503263853
+Cycle complete in 0.104s
+Cycle 207
+Total biomass:
+Model model_3_1.txt: 0.007355933243037851
+Cycle complete in 0.095s
+Cycle 208
+Total biomass:
+Model model_3_1.txt: 0.007651028870529752
+Cycle complete in 0.095s
+Cycle 209
+Total biomass:
+Model model_3_1.txt: 0.007957995468293727
+Cycle complete in 0.077s
+Cycle 210
+Total biomass:
+Model model_3_1.txt: 0.008277283288789525
+Cycle complete in 0.097s
+Cycle 211
+Total biomass:
+Model model_3_1.txt: 0.008609357433202507
+Cycle complete in 0.105s
+Cycle 212
+Total biomass:
+Model model_3_1.txt: 0.008954698148266941
+Cycle complete in 0.076s
+Cycle 213
+Total biomass:
+Model model_3_1.txt: 0.009313801429921014
+Cycle complete in 0.074s
+Cycle 214
+Total biomass:
+Model model_3_1.txt: 0.009687179396257795
+Cycle complete in 0.08s
+Cycle 215
+Total biomass:
+Model model_3_1.txt: 0.010075360754899138
+Cycle complete in 0.087s
+Cycle 216
+Total biomass:
+Model model_3_1.txt: 0.010478890777737306
+Cycle complete in 0.079s
+Cycle 217
+Total biomass:
+Model model_3_1.txt: 0.0108983315241157
+Cycle complete in 0.081s
+Cycle 218
+Total biomass:
+Model model_3_1.txt: 0.011334261516021422
+Cycle complete in 0.081s
+Cycle 219
+Total biomass:
+Model model_3_1.txt: 0.011787275282240182
+Cycle complete in 0.079s
+Cycle 220
+Total biomass:
+Model model_3_1.txt: 0.012257982553457452
+Cycle complete in 0.079s
+Cycle 221
+Total biomass:
+Model model_3_1.txt: 0.01274700706654595
+Cycle complete in 0.079s
+Cycle 222
+Total biomass:
+Model model_3_1.txt: 0.013254984887004792
+Cycle complete in 0.078s
+Cycle 223
+Total biomass:
+Model model_3_1.txt: 0.013782562125613282
+Cycle complete in 0.082s
+Cycle 224
+Total biomass:
+Model model_3_1.txt: 0.01433039187946979
+Cycle complete in 0.081s
+Cycle 225
+Total biomass:
+Model model_3_1.txt: 0.0148991301634478
+Cycle complete in 0.079s
+Cycle 226
+Total biomass:
+Model model_3_1.txt: 0.015489430507412912
+Cycle complete in 0.081s
+Cycle 227
+Total biomass:
+Model model_3_1.txt: 0.01610193676417844
+Cycle complete in 0.081s
+Cycle 228
+Total biomass:
+Model model_3_1.txt: 0.01673727348165932
+Cycle complete in 0.082s
+Cycle 229
+Total biomass:
+Model model_3_1.txt: 0.017396032905540974
+Cycle complete in 0.083s
+Cycle 230
+Total biomass:
+Model model_3_1.txt: 0.018078757237689782
+Cycle complete in 0.082s
+Cycle 231
+Total biomass:
+Model model_3_1.txt: 0.018785914080727918
+Cycle complete in 0.081s
+Cycle 232
+Total biomass:
+Model model_3_1.txt: 0.01951786187311134
+Cycle complete in 0.082s
+Cycle 233
+Total biomass:
+Model model_3_1.txt: 0.020274800235760993
+Cycle complete in 0.082s
+Cycle 234
+Total biomass:
+Model model_3_1.txt: 0.021056696887062774
+Cycle complete in 0.082s
+Cycle 235
+Total biomass:
+Model model_3_1.txt: 0.02186317688966647
+Cycle complete in 0.082s
+Cycle 236
+Total biomass:
+Model model_3_1.txt: 0.02269334883957729
+Cycle complete in 0.085s
+Cycle 237
+Total biomass:
+Model model_3_1.txt: 0.023545520308072984
+Cycle complete in 0.082s
+Cycle 238
+Total biomass:
+Model model_3_1.txt: 0.024416707263239322
+Cycle complete in 0.088s
+Cycle 239
+Total biomass:
+Model model_3_1.txt: 0.025301732430487535
+Cycle complete in 0.086s
+Cycle 240
+Total biomass:
+Model model_3_1.txt: 0.02619142916513584
+Cycle complete in 0.082s
+Cycle 241
+Total biomass:
+Model model_3_1.txt: 0.027068674154004952
+Cycle complete in 0.081s
+Cycle 242
+Total biomass:
+Model model_3_1.txt: 0.02789836656796476
+Cycle complete in 0.081s
+Cycle 243
+Total biomass:
+Model model_3_1.txt: 0.028597478411872896
+Cycle complete in 0.081s
+Cycle 244
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.159s
+Cycle 245
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.058s
+Cycle 246
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.057s
+Cycle 247
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.057s
+Cycle 248
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.058s
+Cycle 249
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.057s
+Cycle 250
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.058s
+Cycle 251
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.057s
+Cycle 252
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.059s
+Cycle 253
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.057s
+Cycle 254
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 255
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 256
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.054s
+Cycle 257
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 258
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 259
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 260
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 261
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 262
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.101s
+Cycle 263
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 264
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 265
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 266
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 267
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 268
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 269
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.054s
+Cycle 270
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 271
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 272
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.054s
+Cycle 273
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 274
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.102s
+Cycle 275
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 276
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 277
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 278
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 279
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 280
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 281
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 282
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 283
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 284
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 285
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 286
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 287
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 288
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.054s
+Cycle 289
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 290
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 291
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 292
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 293
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 294
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 295
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 296
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 297
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 298
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.054s
+Cycle 299
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 300
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 301
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.055s
+Cycle 302
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 303
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 304
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 305
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 306
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 307
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 308
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 309
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 310
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 311
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 312
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 313
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 314
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 315
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 316
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 317
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 318
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 319
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 320
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 321
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 322
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 323
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 324
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 325
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 326
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 327
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 328
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 329
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 330
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 331
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 332
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 333
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 334
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 335
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 336
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 337
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 338
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 339
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 340
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 341
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 342
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 343
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 344
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 345
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 346
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 347
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 348
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 349
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.101s
+Cycle 350
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.055s
+Cycle 351
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 352
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 353
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 354
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 355
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 356
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 357
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 358
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 359
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 360
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 361
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 362
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 363
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 364
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 365
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 366
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 367
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 368
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 369
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 370
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 371
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 372
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.057s
+Cycle 373
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 374
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 375
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 376
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 377
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 378
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 379
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 380
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.066s
+Cycle 381
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 382
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 383
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 384
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 385
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 386
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 387
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 388
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 389
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 390
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 391
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 392
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 393
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 394
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 395
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 396
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 397
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 398
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 399
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 400
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 401
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 402
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 403
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 404
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 405
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 406
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 407
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 408
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 409
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 410
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 411
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 412
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 413
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.054s
+Cycle 414
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 415
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 416
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 417
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 418
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 419
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.101s
+Cycle 420
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 421
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 422
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 423
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 424
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 425
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 426
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 427
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 428
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 429
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 430
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 431
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 432
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 433
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 434
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 435
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 436
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 437
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 438
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 439
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 440
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 441
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 442
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 443
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.101s
+Cycle 444
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 445
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 446
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 447
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 448
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 449
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 450
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 451
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 452
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 453
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 454
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.101s
+Cycle 455
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 456
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 457
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 458
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 459
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 460
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 461
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 462
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 463
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 464
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 465
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 466
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 467
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.101s
+Cycle 468
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 469
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 470
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 471
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.056s
+Cycle 472
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 473
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 474
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 475
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 476
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 477
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 478
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 479
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 480
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 481
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 482
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 483
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 484
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 485
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 486
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 487
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 488
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 489
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 490
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 491
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 492
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 493
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 494
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 495
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 496
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 497
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 498
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 499
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 500
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 501
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 502
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 503
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 504
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 505
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 506
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 507
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 508
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 509
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 510
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 511
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 512
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 513
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 514
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 515
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 516
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 517
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 518
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 519
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 520
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 521
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 522
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 523
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 524
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 525
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 526
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 527
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 528
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 529
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 530
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 531
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 532
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 533
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 534
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 535
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 536
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 537
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 538
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 539
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 540
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 541
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 542
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 543
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 544
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 545
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 546
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 547
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 548
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 549
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 550
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 551
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 552
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 553
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 554
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 555
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 556
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 557
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 558
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 559
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 560
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 561
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 562
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 563
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 564
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 565
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 566
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 567
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 568
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 569
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 570
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 571
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 572
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 573
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 574
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 575
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 576
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 577
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 578
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 579
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 580
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 581
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 582
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 583
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 584
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.1s
+Cycle 585
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 586
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 587
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 588
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 589
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 590
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 591
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.057s
+Cycle 592
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 593
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 594
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 595
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 596
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 597
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 598
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 599
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 600
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 601
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 602
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 603
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 604
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 605
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 606
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 607
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 608
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 609
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 610
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 611
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 612
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 613
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 614
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 615
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 616
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 617
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 618
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 619
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 620
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 621
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 622
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 623
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 624
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 625
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 626
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 627
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 628
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 629
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 630
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 631
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 632
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 633
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 634
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 635
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 636
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 637
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 638
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 639
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 640
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 641
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 642
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 643
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 644
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 645
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 646
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 647
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 648
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 649
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 650
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.099s
+Cycle 651
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.1s
+Cycle 652
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 653
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 654
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 655
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 656
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 657
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 658
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 659
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 660
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 661
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 662
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 663
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 664
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 665
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 666
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 667
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 668
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.054s
+Cycle 669
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 670
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 671
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 672
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 673
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 674
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 675
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 676
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 677
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 678
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 679
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 680
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 681
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 682
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 683
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 684
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 685
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 686
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 687
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 688
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 689
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 690
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 691
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 692
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 693
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 694
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 695
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 696
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 697
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 698
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 699
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 700
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 701
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 702
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 703
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 704
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 705
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 706
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 707
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 708
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 709
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 710
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 711
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 712
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 713
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 714
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 715
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 716
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.1s
+Cycle 717
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 718
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 719
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 720
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 721
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 722
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 723
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 724
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 725
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 726
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 727
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 728
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 729
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 730
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 731
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 732
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 733
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 734
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 735
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 736
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 737
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 738
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 739
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 740
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 741
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 742
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 743
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 744
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 745
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 746
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 747
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 748
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 749
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 750
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 751
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 752
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 753
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 754
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 755
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 756
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 757
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 758
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 759
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 760
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 761
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 762
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 763
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 764
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 765
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 766
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 767
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 768
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 769
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.055s
+Cycle 770
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 771
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 772
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 773
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 774
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 775
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 776
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 777
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 778
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 779
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 780
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 781
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 782
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 783
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 784
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 785
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 786
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 787
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 788
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 789
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 790
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 791
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 792
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 793
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 794
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 795
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 796
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 797
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 798
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 799
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 800
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 801
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 802
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 803
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 804
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 805
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 806
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 807
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 808
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 809
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 810
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 811
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.101s
+Cycle 812
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 813
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 814
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.107s
+Cycle 815
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 816
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 817
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 818
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 819
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 820
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 821
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 822
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 823
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 824
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 825
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 826
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 827
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 828
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 829
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 830
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 831
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 832
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 833
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 834
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 835
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 836
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 837
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 838
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 839
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 840
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 841
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 842
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 843
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 844
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 845
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 846
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 847
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 848
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 849
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 850
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 851
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 852
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 853
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 854
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 855
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 856
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 857
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 858
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.136s
+Cycle 859
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 860
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 861
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 862
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 863
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 864
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 865
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 866
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 867
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 868
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 869
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 870
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 871
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 872
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 873
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 874
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 875
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 876
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 877
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 878
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 879
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 880
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 881
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 882
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 883
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 884
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 885
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 886
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 887
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 888
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 889
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 890
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 891
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 892
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 893
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 894
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 895
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 896
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 897
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 898
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 899
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 900
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 901
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 902
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 903
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 904
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 905
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 906
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 907
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 908
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 909
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 910
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 911
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 912
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 913
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 914
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 915
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 916
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 917
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 918
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 919
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 920
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 921
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 922
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 923
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 924
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 925
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 926
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 927
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 928
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 929
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.1s
+Cycle 930
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 931
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.101s
+Cycle 932
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 933
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 934
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 935
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 936
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 937
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 938
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 939
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 940
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 941
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 942
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 943
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 944
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 945
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 946
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 947
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 948
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 949
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 950
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 951
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 952
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.097s
+Cycle 953
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 954
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 955
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 956
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 957
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 958
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 959
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 960
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 961
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 962
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 963
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 964
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 965
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.056s
+Cycle 966
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.054s
+Cycle 967
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.053s
+Cycle 968
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 969
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 970
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 971
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 972
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 973
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 974
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 975
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 976
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 977
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 978
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 979
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 980
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 981
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 982
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 983
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 984
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 985
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 986
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 987
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 988
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 989
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 990
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.052s
+Cycle 991
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.1s
+Cycle 992
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 993
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 994
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 995
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 996
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.1s
+Cycle 997
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.1s
+Cycle 998
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 999
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.05s
+Cycle 1000
+Total biomass:
+Model model_3_1.txt: 0.02883000843975562
+Cycle complete in 0.051s
+Cycle 1001
+End of simulation
+Total time = 64.573s
